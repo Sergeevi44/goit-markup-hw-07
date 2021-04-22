@@ -537,7 +537,7 @@ textarea.modal__input {
   letter-spacing: 0.03em;
 }
 
-.social__list {
+.socials__list {
   padding-bottom: 30px;
   margin-left: 32px;
   margin-right: 32px;
@@ -557,7 +557,7 @@ textarea.modal__input {
     color 250ms var(--time-transition);
 }
 
-.s-list-item:not(:last-child) {
+.socials__item:not(:last-child) {
   margin-right: 10px;
 }
 .s-icon {
