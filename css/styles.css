@@ -686,7 +686,7 @@ textarea.modal__input {
   width: 570px;
 }
 
-.footer-input {
+.footer__input {
   height: 50px;
   width: 350px;
   margin: 0;
@@ -695,7 +695,7 @@ textarea.modal__input {
   border-radius: 4px;
 }
 
-.footer-input::placeholder {
+.footer__input::placeholder {
   padding-left: 16px;
 
   font-size: 16px;
@@ -705,14 +705,14 @@ textarea.modal__input {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-submit-btn {
+.footer__submit-button {
   margin-left: 12px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer-icon-send {
+.footer__send-icon {
   margin-left: 10px;
   fill: var(--primary-bgc);
 }
