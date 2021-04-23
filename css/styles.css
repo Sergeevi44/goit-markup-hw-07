@@ -462,7 +462,7 @@ textarea.modal__input {
 }
 .projects__title,
 .team__title,
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
 
   color: var(--secondary-color);
@@ -543,7 +543,7 @@ textarea.modal__input {
   margin-right: 32px;
 }
 
-.s-link {
+.socials__link {
   justify-content: center;
   width: 44px;
   height: 44px;
@@ -560,12 +560,12 @@ textarea.modal__input {
 .socials__item:not(:last-child) {
   margin-right: 10px;
 }
-.s-icon {
+.socials__icon {
   fill: currentColor;
 }
 
-.s-link:hover,
-.s-link:focus {
+.socials__link:hover,
+.socials__link:focus {
   background-color: var(--accent-color);
   color: var(--primary-bgc);
 }
@@ -576,7 +576,7 @@ textarea.modal__input {
   padding-bottom: 94px;
 }
 
-.clients-link {
+.clients__link {
   justify-content: center;
   width: 170px;
   height: 92px;
@@ -590,16 +590,16 @@ textarea.modal__input {
     color 250ms var(--time-transition);
 }
 
-.clients-list-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   border: 1px solid var(--accent-color);
 }
 
-.clients-icon {
+.clients__icon {
   fill: currentColor;
 }
 
@@ -610,27 +610,8 @@ textarea.modal__input {
 
   background-color: #2f303a;
 }
-.adress-list > .item {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-}
-.map-item {
-  margin-bottom: 15px;
-}
-.mail-item {
-  margin-bottom: 6px;
-}
-.adress-map-link {
-  color: var(--primary-bgc);
-}
-.adress-mail-link,
-.adress-phone-link {
-  color: rgba(255, 255, 255, 0.6);
-}
 
-.footer-flex {
+.footer__box {
   align-items: baseline;
 }
 
@@ -638,7 +619,31 @@ textarea.modal__input {
   margin-right: 70px;
 }
 
-.footer-text {
+.adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.adress__map-item {
+  margin-bottom: 15px;
+}
+.adress__mail-item {
+  margin-bottom: 6px;
+}
+.adress__map-link {
+  color: var(--primary-bgc);
+}
+.adress__mail-link,
+.adress__phone-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.middle {
+  margin-right: 93px;
+}
+
+.footer__appeal {
   margin-bottom: 20px;
 
   color: var(--primary-bgc);
@@ -649,11 +654,11 @@ textarea.modal__input {
   text-transform: uppercase;
 }
 
-.footer-s-list-item:not(:last-child) {
+.footer__social-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-s-link {
+.footer__social-item {
   align-content: ;
   justify-content: center;
   width: 44px;
@@ -667,18 +672,14 @@ textarea.modal__input {
   transition: background-color 250ms var(--time-transition);
 }
 
-.footer-s-link:hover,
-.footer-s-link:focus {
+.footer__social-item:hover,
+.footer__social-item:focus {
   background-color: var(--accent-color);
   color: var(--primary-bgc);
 }
 
-.footer-s-link-icon {
+.footer__social-icon {
   fill: currentColor;
-}
-
-.middle {
-  margin-right: 93px;
 }
 
 .right {
