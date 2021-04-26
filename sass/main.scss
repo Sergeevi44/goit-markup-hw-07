@@ -9,16 +9,11 @@
 @import "./utils/variables";
 //! Универсальные селекторы
 @import "./base/common";
+//! Контейнер
+@import "./base/container";
 
 
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .button {
   width: 200px;
   height: 50px;
