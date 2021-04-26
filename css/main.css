@@ -1,11 +1,14 @@
 @charset "UTF-8";
-/* цвет основного текста #757575 */
-/* белый #ffffff */
-/* цвет дополнительного текста #212121 */
-/* акцент #2196f3 */
-/* цвет фона основной #e5e5e5 */
-/* цвет фона вторичный #f5f4fa */
-/* соцсети и клиенты #AFB1B8 */
+:root {
+  --primary-text-color: #757575;
+  --secondary-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #f5f4fa;
+  --icons-color: #afb1b8;
+  --time-transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Универсальные селекторы */
 .title {
   margin-bottom: 0;
@@ -171,17 +174,6 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
-
-/* переменные */
-:root {
-  --primary-text-color: #757575;
-  --secondary-color: #212121;
-  --accent-color: #2196f3;
-  --primary-bgc: #ffffff;
-  --secondary-bgc: #f5f4fa;
-  --icons-color: #afb1b8;
-  --time-transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header--border {
