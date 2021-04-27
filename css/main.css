@@ -114,7 +114,6 @@ img {
   margin-bottom: 20px;
 }
 
-/* header */
 .header__link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -126,6 +125,20 @@ img {
 .header__link--mail {
   margin-left: auto;
   margin-right: 50px;
+}
+
+.header--border {
+  border-bottom: 1px solid #ececec;
+}
+
+.header__mail-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header__phone-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .pagination__item:not(:last-child) {
@@ -168,20 +181,6 @@ img {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
-
-.header--border {
-  border-bottom: 1px solid #ececec;
-}
-
-.header__mail-icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.header__phone-icon {
-  margin-right: 10px;
-  fill: currentColor;
 }
 
 /* Hero */
