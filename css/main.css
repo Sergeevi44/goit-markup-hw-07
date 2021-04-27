@@ -85,12 +85,6 @@ img {
   border-radius: 4px;
 }
 
-.header-link-mail,
-.header-link-phone {
-  color: inherit;
-}
-
-/* logo */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -99,12 +93,12 @@ img {
   letter-spacing: 0.03em;
 }
 
-.header__logo {
-  margin-right: 93px;
-}
-
 .logo--first-color {
   color: var(--accent-color);
+}
+
+.header__logo {
+  margin-right: 93px;
 }
 
 .header__logo--second-color {
@@ -121,8 +115,7 @@ img {
 }
 
 /* header */
-.header__link,
-.pagination__list {
+.header__link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -145,6 +138,10 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .pagination__link--current {
