@@ -506,7 +506,6 @@ textarea.modal__input {
   letter-spacing: 0.03em;
 }
 
-/* Team */
 .socials__list {
   padding-bottom: 30px;
   margin-left: 32px;
@@ -523,6 +522,11 @@ textarea.modal__input {
   transition: background-color 250ms var(--time-transition), color 250ms var(--time-transition);
 }
 
+.socials__link:hover, .socials__link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bgc);
+}
+
 .socials__item:not(:last-child) {
   margin-right: 10px;
 }
@@ -531,13 +535,6 @@ textarea.modal__input {
   fill: currentColor;
 }
 
-.socials__link:hover,
-.socials__link:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-bgc);
-}
-
-/* Clients */
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -553,32 +550,16 @@ textarea.modal__input {
   transition: border 250ms var(--time-transition), color 250ms var(--time-transition);
 }
 
+.clients__link:hover, .clients__link:focus {
+  border: 1px solid var(--accent-color);
+}
+
 .clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients__link:hover,
-.clients__link:focus {
-  border: 1px solid var(--accent-color);
-}
-
 .clients__icon {
   fill: currentColor;
-}
-
-/* Footer */
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #2f303a;
-}
-
-.footer__box {
-  align-items: baseline;
-}
-
-.left {
-  margin-right: 70px;
 }
 
 .adress {
@@ -603,6 +584,21 @@ textarea.modal__input {
 .adress__mail-link,
 .adress__phone-link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Footer */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.footer__box {
+  align-items: baseline;
+}
+
+.left {
+  margin-right: 70px;
 }
 
 .middle {

@@ -24,74 +24,12 @@
 @import "./components/projects";
 //!Команда
 @import "./components/team";
-
-/* Team */
-
-.socials__list {
-  padding-bottom: 30px;
-  margin-left: 32px;
-  margin-right: 32px;
-}
-
-.socials__link {
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-
-  color: var(--icons-color);
-
-  background-color: var(--primary-bgc);
-  border-radius: 50%;
-
-  transition: background-color 250ms var(--time-transition),
-    color 250ms var(--time-transition);
-}
-
-.socials__item:not(:last-child) {
-  margin-right: 10px;
-}
-.socials__icon {
-  fill: currentColor;
-}
-
-.socials__link:hover,
-.socials__link:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-bgc);
-}
-
-/* Clients */
-.clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.clients__link {
-  justify-content: center;
-  width: 170px;
-  height: 92px;
-
-  color: var(--icons-color);
-
-  border: 1px solid var(--icons-color);
-  border-radius: 4px;
-
-  transition: border 250ms var(--time-transition),
-    color 250ms var(--time-transition);
-}
-
-.clients__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.clients__link:hover,
-.clients__link:focus {
-  border: 1px solid var(--accent-color);
-}
-
-.clients__icon {
-  fill: currentColor;
-}
+//! Социальные сети в блоке команды
+@import "./components/socials";
+//! Клиенты
+@import "./components/clients";
+//! Адрес
+@import "./components/adress";
 
 /* Footer */
 .footer {
@@ -109,25 +47,6 @@
   margin-right: 70px;
 }
 
-.adress {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-}
-.adress__map-item {
-  margin-bottom: 15px;
-}
-.adress__mail-item {
-  margin-bottom: 6px;
-}
-.adress__map-link {
-  color: var(--primary-bgc);
-}
-.adress__mail-link,
-.adress__phone-link {
-  color: rgba(255, 255, 255, 0.6);
-}
 
 .middle {
   margin-right: 93px;
