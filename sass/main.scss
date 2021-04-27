@@ -4,33 +4,5 @@
 @import "./utils/variables";
 //! Универсальные стили
 @import "./base/module";
-//! Универсальные стили кнопок
-@import "./components/buttons";
-//! Логотипы
-@import "./components/logo";
-//! Хэдэр
-@import "./components/header";
-//! Навигация по страницам
-@import "./components/pagination";
-//! Герой
-@import "./components/hero";
-//! Модальное окно
-@import "./components/modal";
-//! Особенности
-@import "./components/features";
-//! Проекты
-@import "./components/projects";
-//!Команда
-@import "./components/team";
-//! Социальные сети в блоке команды
-@import "./components/socials";
-//! Клиенты
-@import "./components/clients";
-//! Адрес
-@import "./components/adress";
-//! Форма обратной связи в футере
-@import "./components/footer-form";
-//! Футер
-@import "./components/footer";
-//! Галерея
-@import "./components/gallery";
+//! Основные стили
+@import "./components/module";
