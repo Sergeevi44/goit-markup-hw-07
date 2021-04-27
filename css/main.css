@@ -535,6 +535,30 @@ textarea.modal__input {
   fill: currentColor;
 }
 
+.footer__social-item {
+  align-content: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--primary-bgc);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: background-color 250ms var(--time-transition);
+}
+
+.footer__social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer__social-item:hover, .footer__social-item:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bgc);
+}
+
+.footer__social-icon {
+  fill: currentColor;
+}
+
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -613,31 +637,6 @@ textarea.modal__input {
   line-height: 16px;
   letter-spacing: 1.14;
   text-transform: uppercase;
-}
-
-.footer__social-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer__social-item {
-  align-content: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  color: var(--primary-bgc);
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  transition: background-color 250ms var(--time-transition);
-}
-
-.footer__social-item:hover,
-.footer__social-item:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-bgc);
-}
-
-.footer__social-icon {
-  fill: currentColor;
 }
 
 .right {
