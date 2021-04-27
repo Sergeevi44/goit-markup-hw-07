@@ -20,52 +20,9 @@
 @import "./components/modal";
 //! Особенности
 @import "./components/features";
-/* Features */
+//! Проекты
+@import "./components/projects";
 
-/* Projects */
-.projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.projects__title,
-.team__title,
-.clients__title {
-  margin-bottom: 50px;
-
-  color: var(--secondary-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.projects__item {
-  position: relative;
-  width: calc((100% - 2 * 30px) / 3);
-}
-.projects__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.projects__text {
-  position: absolute;
-  top: 100%;
-  transform: translateY(-100%);
-
-  width: 370px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: var(--primary-bgc);
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  background-color: rgba(47, 48, 58, 0.8);
-}
 /* Team */
 .team {
   padding-bottom: 94px;

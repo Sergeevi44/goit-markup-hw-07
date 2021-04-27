@@ -73,6 +73,18 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
+.projects__title,
+.team__title,
+.clients__title {
+  margin-bottom: 50px;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -427,23 +439,9 @@ textarea.modal__input {
   text-transform: uppercase;
 }
 
-/* Features */
-/* Projects */
 .projects {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.projects__title,
-.team__title,
-.clients__title {
-  margin-bottom: 50px;
-  color: var(--secondary-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .projects__item {

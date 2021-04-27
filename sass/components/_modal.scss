@@ -17,7 +17,7 @@
 	pointer-events: none;
 	& .modal {
 		transform: translate(-50%, -50%) scale(0);
-		}
+	}
 }
 
 .modal {
@@ -56,7 +56,7 @@
 		&:hover {
 			color: var(--accent-color);
 			outline: transparent;
-}
+		}
 }
 
 .modal__close-icon {
@@ -118,10 +118,10 @@
 		&:focus {
 			outline: transparent;
 			border: 1px solid var(--accent-color);
-			}
+		}
 		&:focus + .modal__icon {
 			fill: var(--accent-color);
-			}
+		}
 		&::placeholder {
 			font-weight: 400;
 			font-size: 12px;
@@ -129,7 +129,7 @@
 			letter-spacing: 0.01em;
 
 			color: rgba(117, 117, 117, 0.5);
-			}
+		}
 }
 
 .modal__icon {
@@ -164,12 +164,12 @@ textarea.modal__input {
 	appearance: none;
 	&:focus + .modal__checkbox-icon {
 		outline: 3px solid var(--accent-color);
-		}
+	}
 	&:checked + .modal__checkbox-icon {
 		background-color: var(--accent-color);
 		fill: var(--primary-bgc);
 		border: transparent;
-		}
+	}
 }
 
 .modal__checkbox-icon {
