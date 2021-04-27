@@ -639,7 +639,6 @@ textarea.modal__input {
   fill: var(--primary-bgc);
 }
 
-/* Footer */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -672,6 +671,7 @@ textarea.modal__input {
   width: 570px;
 }
 
+/* Footer */
 /* ПОРТФОЛИО */
 .gallery {
   padding-top: 94px;
